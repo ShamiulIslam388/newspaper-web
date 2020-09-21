@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1020px;
+    margin: 20px auto;
+}
+
+/*********** logo design **************/
+.logo {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.logo .fa {
+    font-size: 38px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.logo p {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+/*************** navigation section ****************/
+
+nav {
+    border: 2px solid lightgray;
+    border-right: none;
+    border-left: none;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+}
+nav li {
+    flex: 1;
+    padding: 15px 40px;
+    
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+/************ cards section ****************/
+
+.cards {
+    margin-top: 35px;
+    display: flex;
+}
+
+.card {
+    flex: 1;
+    border-right: 3px solid lightgray;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: rgba(0,0,0,0.9);
+}
+.card img{
+    width: 300px;
+    margin: 20px 0;
+}
+
+.card.recent {
+    border-right: none;
+}
+
+.card.recent h2{
+    margin-bottom: 0px;
+}
